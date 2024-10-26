@@ -3,8 +3,8 @@ module top_module (
     input [31:0] b,
     output [31:0] sum
 );
-  
-	wire first_cout, second_cout;
+	
+  wire first_cout, second_cout;
   wire [15:0] first_wire, second_wire;
     
   add16 first(a[15:0], b[15:0], 0, first_wire, first_cout);
