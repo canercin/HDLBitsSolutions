@@ -15,4 +15,3 @@ module top_module(
     endgenerate
 
 endmodule
-
